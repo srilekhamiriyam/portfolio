@@ -1,0 +1,48 @@
+.container{
+	width: 95%;
+	margin:0 auto;
+	flex-direction: row;
+	display: flex;
+	padding: 1%;
+	border-bottom: 2px solid #ddd;
+}
+.leftchild{
+	width: 45%;
+	padding: 1%;
+	margin: 1%;
+}
+.rightchild
+{
+	width: 45%;
+	padding: 1%;
+	margin: 1%;
+	text-align: right;
+}
+.leftchild img{
+	width: 40%;
+	height: auto;
+}
+.banner img{
+	width: 100%;
+	margin: auto;
+}
+.cars
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.card{
+	width: 25%;
+	border: 1px solid #ddd;
+	margin: 1%;
+	padding: 1%;
+}
+.card img{
+	width: 80%;
+	height: auto;
+}
+h3,
+p{
+text-align: center;
+}
